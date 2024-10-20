@@ -32,7 +32,7 @@ void handle_unlock() {
 void handle_NotFound(){
   server.send(404, "text/plain", "Not found");
 }
-//animation: blink-animation 1s infinite;} @keyframes blink-animation { 0% { background-color: red; }50% { background-color: yellow; }100% { background-color: red; }}
+
 String SendHTML(bool l){
   String ptr = "<!DOCTYPE html> <html>\n";
   ptr +="<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n";
